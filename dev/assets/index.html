@@ -4,871 +4,1269 @@
     <meta charset="utf-8">
     <title>Главная</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,700&subset=cyrillic-ext">
-    <link rel="stylesheet" href="fonts/socicon/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
   </head>
   <body>
-    <header class="header mb-4">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-auto align-self-center align-self-lg-end order-2 order-lg-1">
-            <a href="/"><img src="/img/logo.png"></a>
-          </div>
-          <div class="col-3 col-lg-auto align-self-center align-self-lg-end order-1 order-lg-2">
-            <a href="#" class="burger menu-btn"><span></span></a>
-            <nav class="main-menu">
-              <div class="main-menu__content">
-                <div class="logo-mobile"><img src="/img/logo.png"></div>
-                <ul class="horizontal-menu">
-                  <li class="horizontal-menu__item">
-                    <a href="/" class="horizontal-menu__link horizontal-menu__link--active">О компании</a>
+    <header>
+      <div class="bg-black">
+        <div class="container">
+          <div class="row">
+            <div class="offset-lg-2 col-lg-8">
+              <nav class="menu-horizontal font-small">
+                <ul class="menu-horizontal__list">
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">О нас</a>
                   </li>
-                  <li class="horizontal-menu__item">
-                    <a href="/" class="horizontal-menu__link">Каталог</a>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Строительство</a>
                   </li>
-                  <li class="horizontal-menu__item">
-                    <a href="/" class="horizontal-menu__link">Начинающему инвестору</a>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Юридическим лицам</a>
                   </li>
-                  <li class="horizontal-menu__item">
-                    <a href="/" class="horizontal-menu__link">Аналитика</a>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Оплата и доставка</a>
                   </li>
-                  <li class="horizontal-menu__item">
-                    <a href="/" class="horizontal-menu__link">Контакты</a>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Гарантии</a>
+                  </li>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Новости</a>
+                  </li>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Бренды</a>
+                  </li>
+                  <li class="menu-horizontal__item">
+                    <a href="#" class="menu-horizontal__link">Контакты</a>
                   </li>
                 </ul>
+              </nav>
+            </div>
+            <div class="col-lg-2 align-self-center text-right">
+              <div class="lh-1 font-small">
+                <a href="#" class="icon icon--login text-uppercase mr-3"><span>Вход</span></a>
+                <a href="#" class="icon icon--registration text-uppercase"><span>Регистрация</span></a>
               </div>
-            </nav>
+            </div>
           </div>
-          <div class="col-3 col-lg-auto align-self-center align-self-xl-end text-right order-3">
-            <a href="/" class="link-icon link-icon--personal">Личный кабинет</a>
+        </div>
+      </div>
+      <div class="bg-gray-gradient">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3">
+              <a href="#" class="logo">
+                <img src="img/logo.png">
+              </a>
+              <nav class="dropdown-menu">
+                <a href="#" class="dropdown-menu__btn icon icon--menu"><span>Каталог товаров</span></a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-1.png);"></span>
+                      Печи
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-2.png);"></span>
+                      Парогенераторы
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-3.png);"></span>
+                      Блоки управления
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-4.png);"></span>
+                      Дымоходы
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-5.png);"></span>
+                      Освещение
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-6.png);"></span>
+                      Пиломатериалы
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-7.png);"></span>
+                      Двери
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-8.png);"></span>
+                      Купели
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-9.png);"></span>
+                      Инфракрасные кабины
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-10.png);"></span>
+                      Камины
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-11.png);"></span>
+                      Аксессуары
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-auto align-self-center">
+              <div class="icon icon--clock icon--va-top">
+                <span>Пн-Пт: с 09:00-19:00<br>Сб-Вс: выходной</span>
+              </div>
+            </div>
+            <div class="col-lg-auto align-self-center">
+              <div class="icon icon--phone icon--va-top">
+                <span>
+                  <a href="tel:78001002453" class="decoration-none">+7 (800) 100 24 53</a>
+                  <br><a href="tel:74957410041" class="decoration-none">+7 (495) 741 00 41</a></span>
+              </div>
+            </div>
+            <div class="col-lg-2 align-self-center">
+              <a href="#" class="btn btn--bg-red btn--big w-100">Заказать звонок</a>
+            </div>
+            <div class="col-lg-2 align-self-center">
+              <a href="#" class="btn btn--bg-red btn--big w-100">
+                <div class="basket-small">
+                  <div class="icon icon--cart basket-small__icon">
+                    <span class="basket-small__count">2</span>
+                  </div>
+                  <span class="basket-small__name">Корзина</span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </header>
     <section>
+      <div class="container position-relative">
+        <div class="banner-goods">
+          <p class="h2 color-red text-uppercase text-center">Товар дня</p>
+          <div class="owl-carousel slider slider--dots-outer">
+            <div class="goods-day">
+              <a href="#" class="goods-img">
+                <img src="img/goods-1.jpg">
+              </a>
+              <a href="#" class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</a>
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
+                </div>
+                <div class="col-lg-5 align-self-center pl-0">
+                  <div class="goods-day--price">19350</div>
+                </div>
+              </div>
+            </div>
+            <div class="goods-day">
+              <div class="goods-img">
+                <img src="img/goods-1.jpg">
+              </div>
+              <p class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</p>
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
+                </div>
+                <div class="col-lg-5 align-self-center pl-0">
+                  <div class="goods-day--price">19350</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="owl-carousel slider">
+        <div class="banner banner--dark bg-img" style="background-image: url(img/banner.jpg);">
+          <div class="container">
+            <div class="col-lg-5">
+              <div class="banner__name">НЕ ПРОПУСТИ, НОВИНКА В РОССИИ!!!</div>
+              <div class="banner__description">Коллекция дровяных печей<br>Harvia Ville Haapasalo</div>
+              <a href="" class="btn btn--big btn--bg-red banner__btn">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="banner bg-img" style="background-image: url(img/banner.jpg);"></div>
+      </div>
+    </section>
+    <section class="py-4">
       <div class="container">
-        <p class="heading-main mb-4 mb-md-5">Выбирайте бизнес, который<br>принесет Вам прибыль</p>
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="row justify-content-center">
-              <div class="col-md-6 col-lg-3 mb-3">
-                <div class="select-custom">
-                  <span class="select-custom__name">Сфера</span>
-                  <span class="select-custom__value">Инвестиции</span>
-                </div>
+        <p class="h2 color-red text-center text-uppercase mb-4">Наши преимущества</p>
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="block-graphics">
+              <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-1.png">
+              <div class="block-graphics__hover">
+                <img class="block-graphics__img" src="img/icon-block-1-hover.png">
+                <div class="color-red">100% гарантия качества товаров</div>
               </div>
-              <div class="col-md-6 col-lg-3 mb-3">
-                <div class="select-custom">
-                  <span class="select-custom__name">Стоимость</span>
-                  <span class="select-custom__value">5 000 000₽ - 10 000 000₽</span>
-                </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="block-graphics">
+              <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-2.png">
+              <div class="block-graphics__hover">
+                <img class="block-graphics__img" src="img/icon-block-2-hover.png">
+                <div class="color-red">100% гарантия качества товаров</div>
               </div>
-              <div class="col-md-6 col-lg-3 mb-3">
-                <div class="select-custom">
-                  <span class="select-custom__name">Прибыль</span>
-                  <span class="select-custom__value">300 000₽ - 500 000₽</span>
-                </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="block-graphics">
+              <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-3.png">
+              <div class="block-graphics__hover">
+                <img class="block-graphics__img" src="img/icon-block-3-hover.png">
+                <div class="color-red">100% гарантия качества товаров</div>
               </div>
-              <div class="col-md-6 col-lg-3 mb-3">
-                <button class="btn btn--blue btn--radius btn--search w-100">ПОДОБРАТЬ</button>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="block-graphics">
+              <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-4.png">
+              <div class="block-graphics__hover">
+                <img class="block-graphics__img" src="img/icon-block-4-hover.png">
+                <div class="color-red">100% гарантия качества товаров</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="block-graphics">
+              <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-5.png">
+              <div class="block-graphics__hover">
+                <img class="block-graphics__img" src="img/icon-block-5-hover.png">
+                <div class="color-red">100% гарантия качества товаров</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="block-graphics">
+              <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-6.png">
+              <div class="block-graphics__hover">
+                <img class="block-graphics__img" src="img/icon-block-6-hover.png">
+                <div class="color-red">100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-white py-4 my-4 shadow-y">
+    <section class="action-banner action-banner--dark bg-img bg-fixed mb-5" style="background-image: url(img/action-bg.jpg)">
       <div class="container">
-        <div class="tabs">
-          <a href="#tabs-block1" class="tabs__link tabs__link--active">Прибыльные проекты</a>
-          <a href="#tabs-block2" class="tabs__link">Прибыльные проекты</a>
-          <a href="#tabs-block3" class="tabs__link">Прибыльные проекты</a>
-        </div>
-        <div class="tabs__container">
-          <div class="tabs__block tabs__block--active" id="tabs-block1">
-            <div class="owl-carousel slider">
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-              <div class="slider__item">
-                <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                  <span class="card__name">Мини-гостиница на 29 номеров</span>
-                  <span class="card__props">
-                    Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                  </span>
-                  <div class="card__hover">
-                    <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                    <a href="/">К разделу Инвестиции</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row justify-content-end">
+          <div class="col-lg-7">
+            <div class="action-banner__timer mb-4" id="action-timer"></div>
+            <p class="h2 text-uppercase mb-0">Скидки на все печи в магазине</p>
+            <p class="mb-4">на все печи до 01.02.22</p>
+            <a href="#" class="btn btn--bg-red icon icon--after icon--arrow-right">Смотреть все акции</a>
           </div>
-          <div class="tabs__block" id="tabs-block2">
-            <div class="owl-carousel slider">
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider__item">
-                  <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                    <span class="card__name">Мини-гостиница на 29 номеров</span>
-                    <span class="card__props">
-                      Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                    </span>
-                    <div class="card__hover">
-                      <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                      <a href="/">К разделу Инвестиции</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tabs__block" id="tabs-block3">
-              <div class="owl-carousel slider">
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slider__item">
-                    <div class="card bg-img" style="background-image: url(img/bg-item.jpg)">
-                      <span class="card__name">Мини-гостиница на 29 номеров</span>
-                      <span class="card__props">
-                        Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                      </span>
-                      <div class="card__hover">
-                        <a href="/" class="btn btn--white btn--radius w-100 my-5">Подробнее</a>
-                        <a href="/">К разделу Инвестиции</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
         </div>
       </div>
     </section>
     <section class="mb-5">
       <div class="container">
-        <p class="h1 mb-0">Гостиницы</p>
-        <p><a href="/" class="color-blue link-arrow">перейти в раздел</a></p>
         <div class="row">
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
+          <div class="col-lg-3">
+            <div class="bg-white pt-3 pb-4 px-3">
+              <p class="h2 color-red text-uppercase">Новости</p>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-1.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-2.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-3.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-4.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
               </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
+              <div class="text-center">
+                <a href="#" class="btn btn--bg-red">Все новости</a>
+              </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
+          <div class="col-lg-9">
+            <ul class="tabs-list mb-4">
+              <li class="tabs-list__item">
+                <a href="#tabs-block-1" class="tabs-list__link tabs-list__link--active">Хиты продаж</a>
+              </li>
+              <li class="tabs-list__item">
+                <a href="#tabs-block-2" class="tabs-list__link">Рекомендуем</a>
+              </li>
+              <li class="tabs-list__item">
+                <a href="#tabs-block-3" class="tabs-list__link">Скидки</a>
+              </li>
+              <li class="tabs-list__item">
+                <a href="#tabs-block-4" class="tabs-list__link">Новинки</a>
+              </li>
+              <li class="tabs-list__item">
+                <a href="#tabs-block-5" class="tabs-list__link">Подарки</a>
+              </li>
+            </ul>
+            <div class="tabs-block">
+              <div class="sk-fading-circle tabs-block__preloader">
+                <div class="sk-circle sk-circle-1"></div>
+                <div class="sk-circle sk-circle-2"></div>
+                <div class="sk-circle sk-circle-3"></div>
+                <div class="sk-circle sk-circle-4"></div>
+                <div class="sk-circle sk-circle-5"></div>
+                <div class="sk-circle sk-circle-6"></div>
+                <div class="sk-circle sk-circle-7"></div>
+                <div class="sk-circle sk-circle-8"></div>
+                <div class="sk-circle sk-circle-9"></div>
+                <div class="sk-circle sk-circle-10"></div>
+                <div class="sk-circle sk-circle-11"></div>
+                <div class="sk-circle sk-circle-12"></div>
               </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
+              <div class="tabs-block__item tabs-block__item--active" id="tabs-block-1">
+                <div class="row">
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-3.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-4.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-5.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-6.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <a href="#" class="btn btn--bg-red">Показать все</a>
+                </div>
               </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
+              <div class="tabs-block__item" id="tabs-block-2">
+                <div class="row">
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-3.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-4.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-5.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-6.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <a href="#" class="btn btn--bg-red">Показать все</a>
+                </div>
               </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
+              <div class="tabs-block__item" id="tabs-block-3">
+                <div class="row">
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-3.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-4.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-5.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-6.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <a href="#" class="btn btn--bg-red">Показать все</a>
+                </div>
+              </div>
+              <div class="tabs-block__item" id="tabs-block-4">
+                <div class="row">
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-3.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-4.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-5.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-6.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <a href="#" class="btn btn--bg-red">Показать все</a>
+                </div>
+              </div>
+              <div class="tabs-block__item" id="tabs-block-5">
+                <div class="row">
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-3.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-4.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-2.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-5.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-4">
+                    <div class="card-goods">
+                      <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                      <div class="rating mr-1">
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item rating__item--active"></span>
+                        <span class="rating__item"></span>
+                      </div>
+                      <a href="#" class="card-goods__small">3 отзыва</a>
+                      <a href="#" class="goods-img my-2">
+                        <img src="img/goods-6.jpg">
+                      </a>
+                      <div class="row mb-3">
+                        <div class="col-lg">
+                          <p class="card-goods__price">117 870 ₽</p>
+                          <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                        </div>
+                        <div class="col-lg-auto align-self-end">
+                          <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
+                          <a href="#" class="btn-icon btn-icon--compare"></a>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <a href="#" class="btn btn--bg-red">Показать все</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <p class="text-center"><a href="/" class="link-more">+ Показать еще</a></p>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <p class="h1 mb-0">Отели</p>
-        <p><a href="/" class="color-blue link-arrow">перейти в раздел</a></p>
-        <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="text-center"><a href="/" class="link-more">+ Показать еще</a></p>
+    <section class="bg-img bg-fixed main-text main-text--dark py-5">
+      <div class="container text-center">
+        <h1 class="h2 text-uppercase mb-4">Дом Саун - лучший интернет магазин</h1>
+        <p>ООО "Дом Саун.Ру" на протяжении 10 лет специализируется на оптовых и розничных продажах оборудования, материалов, аксессуаров для саун, бань, от извесных производителей, таких как Harvia (Финляндия), Tylo (Швеция), Kastor (Финляндия), Helo (Финляндия), Sawo (Финляндия), Rento (Финляндия), Hukka (Финляндия), Cariitti (Финляндия) и др.</p>
+        <p>Более 10 000 товаров наша компания предлагает своим покупателям, среди которых можно выбрать печь для бани, сауны, парогенератор для турецкой бани, дымоотводящие системы, пиломатериалы (Вагонка, полоки и др.), камни, плитку, двери, скрабы, шапки, бондарные изделия и многое другое. Весь товар сертифицирован и всегда в наличии. Компания, на все товары покупателям предастовляет гарантию производителя.</p>
+        <p>Дополнительно, по согласованию, покупателям предоставляются услуги по подключению, монтажу оборудования. ООО "Дом Саун.Ру" осуществляет комплексное обслуживание спортивных, фитнес, SPA центров по всей территории Российской Федерации.</p>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <p class="h1 mb-0">Инвестиционные проекты</p>
-        <p><a href="/" class="color-blue link-arrow">перейти в раздел</a></p>
-        <div class="row justify-content-center">
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card card--big bg-img" style="background-image: url(img/bg-item.jpg)">
-              <span class="card__name card__name--big">Апартаменты</span>
-              <span class="card__props card__props--big">
-                Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-              </span>
-              <div class="card__hover card__hover--big">
-                <p class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                </p>
-                <a href="/" class="card__btn card__btn--big btn btn--white btn--radius my-2">Подробнее</a>
-              </div>
-            </div>
+    <section class="bg-white pt-5 pb-4">
+      <div class="container text-center">
+        <p class="h2 color-red mb-4">Мы работаем только с лучшими производителями</p>
+        <div class="owl-carousel carousel">
+          <div class="partnet-logo">
+            <img src="img/partner-1.png">
           </div>
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card card--big bg-img" style="background-image: url(img/bg-item.jpg)">
-              <span class="card__name card__name--big">Апартаменты</span>
-              <span class="card__props card__props--big">
-                Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-              </span>
-              <div class="card__hover card__hover--big">
-                <p class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                </p>
-                <a href="/" class="card__btn card__btn--big btn btn--white btn--radius my-2">Подробнее</a>
-              </div>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-2.png">
           </div>
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card card--big bg-img" style="background-image: url(img/bg-item.jpg)">
-              <span class="card__name card__name--big">Апартаменты</span>
-              <span class="card__props card__props--big">
-                Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-              </span>
-              <div class="card__hover card__hover--big">
-                <p class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                </p>
-                <a href="/" class="card__btn card__btn--big btn btn--white btn--radius my-2">Подробнее</a>
-              </div>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-3.png">
           </div>
-        </div>
-        <p class="text-center"><a href="/" class="link-more">+ Показать еще</a></p>
-      </div>
-    </section>
-    <section class="mb-5">
-      <div class="container">
-        <p class="h1 mb-0">Гостиницы</p>
-        <p><a href="/" class="color-blue link-arrow">перейти в раздел</a></p>
-        <div class="row">
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
-              </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-4.png">
           </div>
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
-              </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-1.png">
           </div>
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
-              </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-2.png">
           </div>
-          <div class="col-sm-6 col-lg-3 mb-4">
-            <div class="card-vertical">
-              <div class="card-vertical__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-vertical__hover">
-                <p class="card-vertical__name">Апартаменты</p>
-                <p class="card-vertical__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <p class="card-vertical__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisqu
-                </p>
-                <a href="/" class="card-vertical__btn btn btn--blue btn--radius w-100">Подробнее</a>
-              </div>
-              <a href="/" class="card-vertical__link link-arrow">Подробнее</a>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-3.png">
           </div>
-        </div>
-        <p class="text-center"><a href="/" class="link-more">+ Показать еще</a></p>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <p class="h1 mb-0">Отели</p>
-        <p><a href="/" class="color-blue link-arrow">перейти в раздел</a></p>
-        <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
+          <div class="partnet-logo">
+            <img src="img/partner-4.png">
           </div>
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="card-horizontal">
-              <div class="card-horizontal__img bg-img" style="background-image: url(img/bg-item.jpg)"></div>
-              <div class="card-horizontal__hover">
-                <p class="card-horizontal__name">Апартаменты</p>
-                <p class="card-horizontal__props">
-                  Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-                </p>
-                <a href="/" class="card-horizontal__link link-arrow">Подробнее</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="text-center"><a href="/" class="link-more">+ Показать еще</a></p>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <p class="h1 mb-0">Инвестиционные проекты</p>
-        <p><a href="/" class="color-blue link-arrow">перейти в раздел</a></p>
-        <div class="row justify-content-center">
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card card--big bg-img" style="background-image: url(img/bg-item.jpg)">
-              <span class="card__name card__name--big">Апартаменты</span>
-              <span class="card__props card__props--big">
-                Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-              </span>
-              <div class="card__hover card__hover--big">
-                <p class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                </p>
-                <a href="/" class="card__btn card__btn--big btn btn--white btn--radius my-2">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card card--big bg-img" style="background-image: url(img/bg-item.jpg)">
-              <span class="card__name card__name--big">Апартаменты</span>
-              <span class="card__props card__props--big">
-                Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-              </span>
-              <div class="card__hover card__hover--big">
-                <p class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                </p>
-                <a href="/" class="card__btn card__btn--big btn btn--white btn--radius my-2">Подробнее</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 mb-4">
-            <div class="card card--big bg-img" style="background-image: url(img/bg-item.jpg)">
-              <span class="card__name card__name--big">Апартаменты</span>
-              <span class="card__props card__props--big">
-                Цена: 5 000 000 ₽<br>Доход: 500 000 ₽
-              </span>
-              <div class="card__hover card__hover--big">
-                <p class="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non quam diam. Quisque ut ultrices massa. Cras hendrerit eu justo ut placerat. Aliquam tempus libero sed mauris imperdiet vestibulum. 
-                </p>
-                <a href="/" class="card__btn card__btn--big btn btn--white btn--radius my-2">Подробнее</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="text-center"><a href="/" class="link-more">+ Показать еще</a></p>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <p class="h1">Новости</p>
-        <div class="row">
-          <div class="col-lg-6 mb-4">
-            <div class="block-info h-100">
-              <p class="mb-2"><b>01 | января | 2018 г.</b></p>
-              <p class="block-info__text">
-                О порядке подачи заявок на приобретение, обмен и погашение инвестиционных паев паевых фондов в период с 31 декабря 2016 года по 08 января 2017 года
-                <a href="/" class="block-info__link-more">Подробнее...</a>
-              </p>
-              <a href="/" class="btn btn--download mb-0"></a>
-            </div>
-          </div>
-          <div class="col-lg-6 mb-4">
-            <div class="block-info h-100">
-              <p class="mb-2"><b>01 | января | 2018 г.</b></p>
-              <p class="block-info__text">
-                О порядке подачи заявок на приобретение, обмен и погашение инвестиционных паев паевых фондов в период с 31 декабря 2016 года по 08 января 2017 года. О порядке подачи заявок на приобретение, обмен и погашение инвестиционных паев паевых фондов в период с 31 декабря 2016 года по 08 января 2017 года. О порядке подачи заявок на приобретение, обмен и погашение инвестиционных паев
-                <a href="/" class="block-info__link-more">Подробнее...</a>
-              </p>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </section>
-    <footer class="mt-5">
+    <footer class="bg-black footer">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-md-4 col-lg-2 mb-4 text-center text-md-left">
-            <a href="/"><img src="/img/logo.png"></a>
-            <ul class="social text-center mt-4">
-              <li class="social__item"><a class="social__link social__link--linkedin" href="#"></a></li>
-              <li class="social__item"><a class="social__link social__link--twitter" href="#"></a></li>
-              <li class="social__item"><a class="social__link social__link--facebook" href="#"></a></li>
-              <li class="social__item"><a class="social__link social__link--instagram" href="#"></a></li>
-            </ul>
+          <div class="col-lg-2">
+            <img src="img/logo-2.png">
           </div>
-          <div class="col-lg-auto d-none d-lg-block">
-            <a class="menu-heading mb-2" href="/">О КОМПАНИИ</a>
-            <ul class="vertical-menu">
-              <li class="vertical-menu__item">
-                <a class="vertical-menu__link" href="/">О компании</a>
-                <a class="vertical-menu__link" href="/">Новости</a>
-                <a class="vertical-menu__link" href="/">Сотрудники</a>
-                <a class="vertical-menu__link" href="/">Вакансии</a>
-                <a class="vertical-menu__link" href="/">Политика</a>
-                <a class="vertical-menu__link" href="/">Контакты</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-auto d-none d-lg-block">
-            <a class="menu-heading mb-2" href="/">КАТАЛОГ</a>
-            <ul class="vertical-menu">
-              <li class="vertical-menu__item">
-                <a class="vertical-menu__link" href="/">Гостиницы</a>
-                <a class="vertical-menu__link" href="/">Отели</a>
-                <a class="vertical-menu__link" href="/">Инвестиции</a>
-                <a class="vertical-menu__link" href="/">Сельское хозяйство</a>
-                <a class="vertical-menu__link" href="/">Апартаменты</a>
-                <a class="vertical-menu__link" href="/">Ресто</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-auto d-none d-lg-block">
-            <a class="menu-heading" href="/">Начинающему инвестору</a>
-            <br><a class="menu-heading mb-2" href="/">АНАЛИТИКА</a>
-          </div>
-          <div class="col-md-5 col-lg-3 text-center text-md-right text-lg-left">
-            <p class="icon icon--address">Самара, Ново-садовая, 100, к.1, оф. 212</p>
-            <p class="icon icon--phone">+7 (000) 000 000 00</p>
+          <div class="col-lg-auto"></div>
+          <div class="col-lg-auto"></div>
+          <div class="col-lg-auto"></div>
+          <div class="col-lg-auto"></div>
+          <div class="col-lg-3">
+
           </div>
         </div>
-        <p class="mb-3 mt-3 mt-lg-5 text-center text-lg-left">Все права защищены</p>
       </div>
     </footer>
     <script src="js/libs.min.js"></script>

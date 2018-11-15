@@ -1,13 +1,29 @@
 $(document).ready(function(){
 
   $('.slider').owlCarousel({
-    items: 6,
+    items: 1,
     loop: true,
     nav: false,
+    margin: 0,
+    dots: true
+  });
+
+  $('.carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    nav: true,
     margin: 10,
-    dots: false,
-    nav:true,
-    autoWidth: true
+    dots: false
+  });
+
+  $('#action-timer').mbComingsoon({
+    expiryDate: new Date(2019, 4, 2, 0),
+    localization: {
+      days: 'Дней',
+      hours: 'Часов',
+      minutes: 'Минут',
+      seconds: 'Секунд'
+    }
   });
 
   $('input[type="tel"]').inputmask({mask:"+7 (999) 999-99-99"});
@@ -42,18 +58,29 @@ $(document).ready(function(){
     }
   });
 
-  $('.tabs__link').on('click', function() {
-    var id = $(this).attr('href');
+  $('.tabs-list__link').on('click', function() {
+    var tabs = $(this);
+    var id = tabs.attr('href');
 
-    $('.tabs__link--active').removeClass('tabs__link--active');
-    $('.tabs__block--active').removeClass('tabs__block--active');
+    $('.tabs-list__link--active').removeClass('tabs-list__link--active');
+    $('.tabs-block__item--active').removeClass('tabs-block__item--active');
 
-    $(this).addClass('tabs__link--active');
-    $(id).addClass('tabs__block--active');
+    $('.tabs-block__preloader').addClass('tabs-block__preloader--active');
+
+    setTimeout(function () {
+      tabs.addClass('tabs-list__link--active');
+      $(id).addClass('tabs-block__item--active');
+      $('.tabs-block__preloader--active').removeClass('tabs-block__preloader--active');
+    }, 1000);
 
     return false;
   });
 
   $('.card, .card-vertical, .card-horizontal').on('touchend', function() {});
+
+  $('.dropdown-menu__btn').on('click', function(){
+    $(this).next('.dropdown-menu__list').toggleClass('dropdown-menu__list--active');
+    return false;
+  });
 
 });

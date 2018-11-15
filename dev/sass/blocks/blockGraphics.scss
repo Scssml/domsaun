@@ -1,0 +1,47 @@
+.block-graphics {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 98px;
+  padding: 5px 0;
+
+  &__hover {
+    opacity: 0;
+    line-height: 1.2;
+    font-weight: 700;
+    transform: translateY(-100%);
+    transition: opacity 0.25s ease-in-out,
+                transform 0s ease-in-out 0.25s;
+  }
+
+  &__img {
+    width: 52px;
+    height: 52px;
+
+    &--big {
+      position: absolute;
+      width: 88px;
+      height: 88px;
+      top: 5px;
+      left: calc(50% - 44px);
+      transition: opacity 0.25s ease-in-out,
+                  transform 0.25s ease-in-out 0.25s;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    .block-graphics__hover {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.25s ease-in-out 0.25s;
+    }
+
+    .block-graphics__img--big {
+      transform: scale(0.59) translateY(-30px);
+      opacity: 0;
+      transition: transform 0.25s ease-in-out,
+                  opacity 0.25s ease-in-out 0.25s;
+    }
+  }
+}

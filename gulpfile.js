@@ -36,7 +36,8 @@ gulp.task('libs-js', function() {
       'node_modules/owl.carousel/dist/owl.carousel.min.js',
       'node_modules/inputmask/dist/min/jquery.inputmask.bundle.min.js',
       'node_modules/fancybox/dist/js/jquery.fancybox.pack.js',
-      'node_modules/jquery-ui-dist/jquery-ui.min.js'
+      'node_modules/jquery-ui-dist/jquery-ui.min.js',
+      'dev/vendor/jquery.mb-comingsoon/jquery.mb-comingsoon.min.js',
     ]),
     cached('libs-js'),
     sourcemaps.init(),
@@ -75,7 +76,7 @@ gulp.task('js', function() {
 
 gulp.task('sass', function() {
   return combiner(
-    gulp.src('dev/sass/**/*.scss'),
+    gulp.src('dev/sass/style.scss'),
     sourcemaps.init(),
     sass(),
     autoprefixer(),
@@ -173,7 +174,7 @@ gulp.task('serve', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('dev/sass/**/*.scss', gulp.series('sass'));
+  gulp.watch(['dev/sass/**/*.scss', 'dev/vendor/**/*.css'], gulp.series('sass'));
   gulp.watch('dev/js/**/*.js', gulp.series('js')).on('unlink', function(filepath) {
     remember.forget('js', path.resolve(filepath));
     delete cached.caches.js[path.resolve(filepath)];

@@ -1,0 +1,35 @@
+.slider {
+
+  .owl-dots {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 15px;
+    text-align: center;
+  }
+
+  button.owl-dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #868686;
+    border-radius: 50%;
+    margin: 0 3px;
+    outline: none;
+    transition: background-color 0.25s ease-in-out,
+                border-color 0.25s ease-in-out;
+
+    &.active {
+      background: #bd0e0e;
+      border-color: #bd0e0e;
+    }
+  } 
+
+  &--dots-outer {
+    padding-bottom: 50px;
+  
+    .owl-dots {
+      bottom: 0;
+    }
+  }
+}

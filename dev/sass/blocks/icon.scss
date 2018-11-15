@@ -1,0 +1,131 @@
+.icon {
+
+  &:before,
+  &:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &:before {
+    margin-right: 8px;
+  }
+
+  &:after {
+    margin-left: 8px;
+    display: none;
+  }
+
+  &--after {
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: inline-block;
+    }
+  }
+
+  span {
+    vertical-align: middle;
+  }
+
+    &--va-top {
+
+      span {
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+
+  &--login {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-login.png);
+      width: 10px;
+      height: 14px;
+    }
+  }
+
+  &--registration {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-registration.png);
+      width: 11px;
+      height: 13px;
+    }
+  }
+
+  &--menu {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-menu.png);
+      width: 20px;
+      height: 13px;
+    }
+  }
+
+  &--clock {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-clock.png);
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  &--phone {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-phone.png);
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  &--cart {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-cart.png);
+      width: 24px;
+      height: 22px;
+    }
+  }
+
+  &--arrow-right {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-arrow-right.png);
+      width: 10px;
+      height: 20px;
+    }
+  }
+
+  &--success {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-success.png);
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &--error {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-error.png);
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
