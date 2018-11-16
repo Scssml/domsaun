@@ -4,6 +4,7 @@
   font-size: 0;
   text-align: center;
   text-decoration: none;
+  position: relative;
 
   &:after {
     content: '';
@@ -11,10 +12,12 @@
     height: 100%;
     vertical-align: middle;
   }
+
   img {
     display: inline-block !important;
     vertical-align: middle;
     width: auto !important;
+    max-height: 90%;
   }
 }
 
@@ -38,6 +41,11 @@
       font-size: 1.1rem;
     }
   }
+
+  @media (max-width: 991px) {
+    max-width: 270px;
+    margin: 0 auto;
+  }
 }
 
 .card-goods {
@@ -46,6 +54,8 @@
   line-height: 1.2;
   border-radius: 7px;
   border: 1px solid #d3d2d2;
+  max-width: 290px;
+  margin: 0 auto;
 
   &__name {
     height: 38px;
@@ -60,5 +70,57 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 5px;
+  }
+}
+
+.goods-label {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #fff;
+
+  &__item {
+    display: block;
+    width: 76px;
+    height: 56px;
+    background-image: url(../img//label-goods-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url(../img/icon-gift.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    span {
+      display: block;
+    }
+
+    &--gift {
+
+      &:before {
+        width: 30px;
+        height: 31px;
+        top: 10px;
+        left: 27px;
+      }
+    }
+
+    &--sale {
+      padding-top: 15px;
+
+      span {
+        font-size: 1.25rem;
+        font-weight: 700;
+        transform: rotate(-10deg);
+      }
+    }
   }
 }

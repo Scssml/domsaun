@@ -128,4 +128,14 @@
       height: 15px;
     }
   }
+
+  &--address {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-address.png);
+      width: 15px;
+      height: 19px;
+    }
+  }
 }

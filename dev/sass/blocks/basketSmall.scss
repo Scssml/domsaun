@@ -29,5 +29,9 @@
   &__name {
     display: inline-block;
     vertical-align: middle;
+
+    @media (max-width: 991px) {
+      display: none;
+    }
   }
 }

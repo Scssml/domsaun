@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('.slider').owlCarousel({
+  $('#slider-banner').owlCarousel({
     items: 1,
     loop: true,
     nav: false,
@@ -8,12 +8,39 @@ $(document).ready(function(){
     dots: true
   });
 
+  $('#slider-goods-day').owlCarousel({
+    items: 1,
+    loop: true,
+    nav: false,
+    margin: 30,
+    dots: true,
+    responsive: {
+      768: {
+        items: 2
+      },
+      992: {
+        items: 1
+      }
+    }
+  });
+
   $('.carousel').owlCarousel({
     items: 4,
     loop: true,
     nav: true,
     margin: 10,
-    dots: false
+    dots: false,
+    responsive: {
+      0: {
+        items: 2
+      },
+      576: {
+        items: 3
+      },
+      992: {
+        items: 4
+      }
+    }
   });
 
   $('#action-timer').mbComingsoon({
@@ -23,6 +50,20 @@ $(document).ready(function(){
       hours: 'Часов',
       minutes: 'Минут',
       seconds: 'Секунд'
+    }
+  });
+
+  $(window).scroll(function() {
+    var headerHeight = $('.header').outerHeight();
+
+    $('.dropdown-menu__list--active').removeClass('dropdown-menu__list--active');
+
+    if($(this).scrollTop() > headerHeight + 100) {
+      if(!$('.header-small').hasClass('header-small--active')) {
+        $('.header-small').addClass('header-small--active');
+      }
+    } else {
+      $('.header-small--active').removeClass('header-small--active');
     }
   });
 

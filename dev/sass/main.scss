@@ -144,6 +144,31 @@ h2,
   }
 }
 
+.header {
+  position: relative;
+  z-index: 111;
+  margin-bottom: -1px;
+
+  &__menu-btn {
+    width: 48px;
+    height: 48px;
+    line-height: 44px;
+  }
+}
+
 .footer {
   padding: 30px 0;
+  color: #fff;
+
+  &__contacts {
+    font-size: 1.25rem;
+  }
+}
+
+.copyright {
+  font-size: 0.8rem;
+
+  @media (max-width: 991px) {
+    text-align: center;
+  }
 }

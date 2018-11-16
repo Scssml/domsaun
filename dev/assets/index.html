@@ -9,12 +9,123 @@
     <link rel="stylesheet" href="css/all.min.css">
   </head>
   <body>
-    <header>
+    <div class="header-small header-small--active bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto col-xl-3">
+            <div class="bg-red header-small__wrapper-logo">
+              <a href="#" class="header-small__logo">
+                <img src="img/logo-2.png">
+              </a>
+              <a href="#" class="icon icon--menu header-small__menu-btn header-small__menu-btn--mobile"><span>Каталог</span></a>
+              <nav class="dropdown-menu header-small__dropdown-menu">
+                <a href="#" class="dropdown-menu__btn icon icon--menu header-small__menu-btn"><span>Каталог товаров</span></a>
+                <ul class="dropdown-menu__list header-small__menu-list">
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-1.png);"></span>
+                      Печи
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-2.png);"></span>
+                      Парогенераторы
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-3.png);"></span>
+                      Блоки управления
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-4.png);"></span>
+                      Дымоходы
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-5.png);"></span>
+                      Освещение
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-6.png);"></span>
+                      Пиломатериалы
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-7.png);"></span>
+                      Двери
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-8.png);"></span>
+                      Купели
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-9.png);"></span>
+                      Инфракрасные кабины
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-10.png);"></span>
+                      Камины
+                    </a>
+                  </li>
+                  <li class="dropdown-menu__item">
+                    <a href="#" class="dropdown-menu__link">
+                      <span class="dropdown-menu__ico" style="background-image: url(img/ico-catalog-11.png);"></span>
+                      Аксессуары
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-auto lh-1 align-self-center d-none d-lg-block">
+            <div class="icon icon--phone">
+              <span>
+                <a href="tel:78001002453" class="decoration-none">+7 (800) 100 24 53</a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md col-lg-auto lh-1 align-self-center text-center d-none d-md-block">
+            <a href="#" class="text-uppercase">Заказать звонок</a>
+          </div>
+          <div class="col col-md-auto col-lg text-right align-self-center">
+            <div class="lh-1 font-small">
+              <a href="#" class="icon icon--login text-uppercase"><span>Вход</span></a>
+            </div>
+          </div>
+          <div class="col-auto pl-0">
+            <a href="#" class="bg-red header-small__basket">
+              <div class="basket-small">
+                <div class="icon icon--cart basket-small__icon">
+                  <span class="basket-small__count">2</span>
+                </div>
+                <span class="basket-small__name">Корзина</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header">
       <div class="bg-black">
         <div class="container">
           <div class="row">
-            <div class="offset-lg-2 col-lg-8">
-              <nav class="menu-horizontal font-small">
+            <div class="offset-xl-2 col">
+              <a href="#" class="icon icon--menu header__menu-btn d-inline-block d-lg-none"></a>
+              <nav class="menu-horizontal font-small d-none d-lg-block">
                 <ul class="menu-horizontal__list">
                   <li class="menu-horizontal__item">
                     <a href="#" class="menu-horizontal__link">О нас</a>
@@ -43,7 +154,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="col-lg-2 align-self-center text-right">
+            <div class="col-auto align-self-center text-right">
               <div class="lh-1 font-small">
                 <a href="#" class="icon icon--login text-uppercase mr-3"><span>Вход</span></a>
                 <a href="#" class="icon icon--registration text-uppercase"><span>Регистрация</span></a>
@@ -131,7 +242,7 @@
                 </ul>
               </nav>
             </div>
-            <div class="col-lg-auto align-self-center">
+            <div class="col-lg-auto align-self-center d-none d-xl-block">
               <div class="icon icon--clock icon--va-top">
                 <span>Пн-Пт: с 09:00-19:00<br>Сб-Вс: выходной</span>
               </div>
@@ -140,13 +251,14 @@
               <div class="icon icon--phone icon--va-top">
                 <span>
                   <a href="tel:78001002453" class="decoration-none">+7 (800) 100 24 53</a>
-                  <br><a href="tel:74957410041" class="decoration-none">+7 (495) 741 00 41</a></span>
+                  <br><a href="tel:74957410041" class="decoration-none">+7 (495) 741 00 41</a>
+                </span>
               </div>
             </div>
-            <div class="col-lg-2 align-self-center">
+            <div class="col-lg-auto col-xl-2 align-self-center">
               <a href="#" class="btn btn--bg-red btn--big w-100">Заказать звонок</a>
             </div>
-            <div class="col-lg-2 align-self-center">
+            <div class="col-lg-auto col-xl-2 align-self-center">
               <a href="#" class="btn btn--bg-red btn--big w-100">
                 <div class="basket-small">
                   <div class="icon icon--cart basket-small__icon">
@@ -161,109 +273,129 @@
       </div>
     </header>
     <section>
-      <div class="container position-relative">
-        <div class="banner-goods">
-          <p class="h2 color-red text-uppercase text-center">Товар дня</p>
-          <div class="owl-carousel slider slider--dots-outer">
-            <div class="goods-day">
-              <a href="#" class="goods-img">
-                <img src="img/goods-1.jpg">
-              </a>
-              <a href="#" class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</a>
-              <div class="row">
-                <div class="col-lg-7 align-self-center">
-                  <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
-                </div>
-                <div class="col-lg-5 align-self-center pl-0">
-                  <div class="goods-day--price">19350</div>
+      <div class="row mx-0">
+        <div class="col-12 px-0">
+          <div class="owl-carousel slider" id="slider-banner">
+            <div class="banner banner--dark bg-img" style="background-image: url(img/banner.jpg);">
+              <div class="container">
+                <div class="col-lg-5">
+                  <div class="banner__name">НЕ ПРОПУСТИ, НОВИНКА В РОССИИ!!!</div>
+                  <div class="banner__description">Коллекция дровяных печей<br>Harvia Ville Haapasalo</div>
+                  <a href="" class="btn btn--big btn--bg-red banner__btn">Подробнее</a>
                 </div>
               </div>
             </div>
-            <div class="goods-day">
-              <div class="goods-img">
-                <img src="img/goods-1.jpg">
-              </div>
-              <p class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</p>
-              <div class="row">
-                <div class="col-lg-7 align-self-center">
-                  <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
+            <div class="banner bg-img" style="background-image: url(img/banner.jpg);"></div>
+          </div>
+        </div>
+        <div class="col-12 px-0 order-lg-first wrapper-banner-goods">
+          <div class="container position-relative">
+            <div class="banner-goods">
+              <p class="h2 color-red text-uppercase text-center">Товар дня</p>
+              <div class="owl-carousel slider slider--dots-outer" id="slider-goods-day">
+                <div class="goods-day">
+                  <a href="#" class="goods-img">
+                    <img src="img/goods-1.jpg">
+                  </a>
+                  <a href="#" class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</a>
+                  <div class="row">
+                    <div class="col-7 align-self-center">
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
+                    </div>
+                    <div class="col-5 align-self-center pl-0">
+                      <div class="goods-day--price">19350</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-lg-5 align-self-center pl-0">
-                  <div class="goods-day--price">19350</div>
+                <div class="goods-day">
+                  <div class="goods-img">
+                    <img src="img/goods-1.jpg">
+                  </div>
+                  <p class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</p>
+                  <div class="row">
+                    <div class="col-7 align-self-center">
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
+                    </div>
+                    <div class="col-5 align-self-center pl-0">
+                      <div class="goods-day--price">19350</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="goods-day">
+                  <div class="goods-img">
+                    <img src="img/goods-1.jpg">
+                  </div>
+                  <p class="goods-day--name">Печь для бани грейвари кирасир 10 grey intro</p>
+                  <div class="row">
+                    <div class="col-7 align-self-center">
+                      <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">В корзину</a>
+                    </div>
+                    <div class="col-5 align-self-center pl-0">
+                      <div class="goods-day--price">19350</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="owl-carousel slider">
-        <div class="banner banner--dark bg-img" style="background-image: url(img/banner.jpg);">
-          <div class="container">
-            <div class="col-lg-5">
-              <div class="banner__name">НЕ ПРОПУСТИ, НОВИНКА В РОССИИ!!!</div>
-              <div class="banner__description">Коллекция дровяных печей<br>Harvia Ville Haapasalo</div>
-              <a href="" class="btn btn--big btn--bg-red banner__btn">Подробнее</a>
-            </div>
-          </div>
-        </div>
-        <div class="banner bg-img" style="background-image: url(img/banner.jpg);"></div>
       </div>
     </section>
     <section class="py-4">
       <div class="container">
         <p class="h2 color-red text-center text-uppercase mb-4">Наши преимущества</p>
         <div class="row">
-          <div class="col-lg-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
             <div class="block-graphics">
               <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-1.png">
               <div class="block-graphics__hover">
                 <img class="block-graphics__img" src="img/icon-block-1-hover.png">
-                <div class="color-red">100% гарантия качества товаров</div>
+                <div>100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
             <div class="block-graphics">
               <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-2.png">
               <div class="block-graphics__hover">
                 <img class="block-graphics__img" src="img/icon-block-2-hover.png">
-                <div class="color-red">100% гарантия качества товаров</div>
+                <div>100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
             <div class="block-graphics">
               <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-3.png">
               <div class="block-graphics__hover">
                 <img class="block-graphics__img" src="img/icon-block-3-hover.png">
-                <div class="color-red">100% гарантия качества товаров</div>
+                <div>100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
             <div class="block-graphics">
               <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-4.png">
               <div class="block-graphics__hover">
                 <img class="block-graphics__img" src="img/icon-block-4-hover.png">
-                <div class="color-red">100% гарантия качества товаров</div>
+                <div>100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
             <div class="block-graphics">
               <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-5.png">
               <div class="block-graphics__hover">
                 <img class="block-graphics__img" src="img/icon-block-5-hover.png">
-                <div class="color-red">100% гарантия качества товаров</div>
+                <div>100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
             <div class="block-graphics">
               <img class="block-graphics__img block-graphics__img--big" src="img/icon-block-6.png">
               <div class="block-graphics__hover">
                 <img class="block-graphics__img" src="img/icon-block-6-hover.png">
-                <div class="color-red">100% гарантия качества товаров</div>
+                <div>100% гарантия качества товаров</div>
               </div>
             </div>
           </div>
@@ -273,7 +405,7 @@
     <section class="action-banner action-banner--dark bg-img bg-fixed mb-5" style="background-image: url(img/action-bg.jpg)">
       <div class="container">
         <div class="row justify-content-end">
-          <div class="col-lg-7">
+          <div class="col-md-8 col-xl-7">
             <div class="action-banner__timer mb-4" id="action-timer"></div>
             <p class="h2 text-uppercase mb-0">Скидки на все печи в магазине</p>
             <p class="mb-4">на все печи до 01.02.22</p>
@@ -285,53 +417,7 @@
     <section class="mb-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <div class="bg-white pt-3 pb-4 px-3">
-              <p class="h2 color-red text-uppercase">Новости</p>
-              <div class="row">
-                <div class="col-lg-12 mb-4">
-                  <div class="block-news">
-                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-1.jpg);"></a>
-                    <div class="block-news__text">
-                      <span class="block-news__date">14.08.2018</span><br>
-                      С днем Строителя уважаемые партнеры!!!
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12 mb-4">
-                  <div class="block-news">
-                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-2.jpg);"></a>
-                    <div class="block-news__text">
-                      <span class="block-news__date">14.08.2018</span><br>
-                      С днем Строителя уважаемые партнеры!!!
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12 mb-4">
-                  <div class="block-news">
-                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-3.jpg);"></a>
-                    <div class="block-news__text">
-                      <span class="block-news__date">14.08.2018</span><br>
-                      С днем Строителя уважаемые партнеры!!!
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12 mb-4">
-                  <div class="block-news">
-                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-4.jpg);"></a>
-                    <div class="block-news__text">
-                      <span class="block-news__date">14.08.2018</span><br>
-                      С днем Строителя уважаемые партнеры!!!
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="text-center">
-                <a href="#" class="btn btn--bg-red">Все новости</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-9">
+          <div class="col-xl-9 mb-5 mb-xl-0">
             <ul class="tabs-list mb-4">
               <li class="tabs-list__item">
                 <a href="#tabs-block-1" class="tabs-list__link tabs-list__link--active">Хиты продаж</a>
@@ -366,7 +452,7 @@
               </div>
               <div class="tabs-block__item tabs-block__item--active" id="tabs-block-1">
                 <div class="row">
-                  <div class="col-lg-4 mb-4">
+                  <div class="col-sm-6 col-lg-4 mb-4">
                     <div class="card-goods">
                       <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
                       <div class="rating mr-1">
@@ -377,15 +463,18 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
+                        <div class="goods-label">
+                          <div class="goods-label__item goods-label__item--gift"></div>
+                        </div>
                       </a>
                       <div class="row mb-3">
-                        <div class="col-lg">
+                        <div class="col">
                           <p class="card-goods__price">117 870 ₽</p>
                           <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                         </div>
-                        <div class="col-lg-auto align-self-end">
+                        <div class="col-auto align-self-end">
                           <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
                           <a href="#" class="btn-icon btn-icon--compare"></a>
                         </div>
@@ -393,7 +482,7 @@
                       <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
                     </div>
                   </div>
-                  <div class="col-lg-4 mb-4">
+                  <div class="col-sm-6 col-lg-4 mb-4">
                     <div class="card-goods">
                       <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
                       <div class="rating mr-1">
@@ -404,15 +493,15 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-3.jpg">
                       </a>
                       <div class="row mb-3">
-                        <div class="col-lg">
+                        <div class="col">
                           <p class="card-goods__price">117 870 ₽</p>
                           <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
                         </div>
-                        <div class="col-lg-auto align-self-end">
+                        <div class="col-auto align-self-end">
                           <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
                           <a href="#" class="btn-icon btn-icon--compare"></a>
                         </div>
@@ -420,7 +509,7 @@
                       <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
                     </div>
                   </div>
-                  <div class="col-lg-4 mb-4">
+                  <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card-goods">
                       <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
                       <div class="rating mr-1">
@@ -431,15 +520,19 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-4.jpg">
+                        <div class="goods-label">
+                          <div class="goods-label__item goods-label__item--gift"></div>
+                          <div class="goods-label__item goods-label__item--sale"><span>-20%</span></div>
+                        </div>
                       </a>
                       <div class="row mb-3">
-                        <div class="col-lg">
+                        <div class="col">
                           <p class="card-goods__price">117 870 ₽</p>
                           <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                         </div>
-                        <div class="col-lg-auto align-self-end">
+                        <div class="col-auto align-self-end">
                           <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
                           <a href="#" class="btn-icon btn-icon--compare"></a>
                         </div>
@@ -447,7 +540,7 @@
                       <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
                     </div>
                   </div>
-                  <div class="col-lg-4 mb-4">
+                  <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card-goods">
                       <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
                       <div class="rating mr-1">
@@ -458,15 +551,18 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
+                        <div class="goods-label">
+                          <div class="goods-label__item goods-label__item--sale"><span>-20%</span></div>
+                        </div>
                       </a>
                       <div class="row mb-3">
-                        <div class="col-lg">
+                        <div class="col">
                           <p class="card-goods__price">117 870 ₽</p>
                           <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                         </div>
-                        <div class="col-lg-auto align-self-end">
+                        <div class="col-auto align-self-end">
                           <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
                           <a href="#" class="btn-icon btn-icon--compare"></a>
                         </div>
@@ -474,7 +570,7 @@
                       <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
                     </div>
                   </div>
-                  <div class="col-lg-4 mb-4">
+                  <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card-goods">
                       <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
                       <div class="rating mr-1">
@@ -485,15 +581,15 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-5.jpg">
                       </a>
                       <div class="row mb-3">
-                        <div class="col-lg">
+                        <div class="col">
                           <p class="card-goods__price">117 870 ₽</p>
                           <p class="icon icon--error card-goods__small mb-0"><span>Нет наличии</span></p>
                         </div>
-                        <div class="col-lg-auto align-self-end">
+                        <div class="col-auto align-self-end">
                           <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
                           <a href="#" class="btn-icon btn-icon--compare"></a>
                         </div>
@@ -501,7 +597,7 @@
                       <a href="#" class="btn btn--bg-red btn--big icon icon--cart w-100">Добавить в корзину</a>
                     </div>
                   </div>
-                  <div class="col-lg-4 mb-4">
+                  <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card-goods">
                       <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
                       <div class="rating mr-1">
@@ -512,15 +608,15 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-6.jpg">
                       </a>
                       <div class="row mb-3">
-                        <div class="col-lg">
+                        <div class="col">
                           <p class="card-goods__price">117 870 ₽</p>
                           <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                         </div>
-                        <div class="col-lg-auto align-self-end">
+                        <div class="col-auto align-self-end">
                           <a href="#" class="btn-icon mr-1 btn-icon--favorite"></a>
                           <a href="#" class="btn-icon btn-icon--compare"></a>
                         </div>
@@ -546,7 +642,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -573,7 +669,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-3.jpg">
                       </a>
                       <div class="row mb-3">
@@ -600,7 +696,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-4.jpg">
                       </a>
                       <div class="row mb-3">
@@ -627,7 +723,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -654,7 +750,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-5.jpg">
                       </a>
                       <div class="row mb-3">
@@ -681,7 +777,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-6.jpg">
                       </a>
                       <div class="row mb-3">
@@ -715,7 +811,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -742,7 +838,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-3.jpg">
                       </a>
                       <div class="row mb-3">
@@ -769,7 +865,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-4.jpg">
                       </a>
                       <div class="row mb-3">
@@ -796,7 +892,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -823,7 +919,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-5.jpg">
                       </a>
                       <div class="row mb-3">
@@ -850,7 +946,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-6.jpg">
                       </a>
                       <div class="row mb-3">
@@ -884,7 +980,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -911,7 +1007,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-3.jpg">
                       </a>
                       <div class="row mb-3">
@@ -938,7 +1034,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-4.jpg">
                       </a>
                       <div class="row mb-3">
@@ -965,7 +1061,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -992,7 +1088,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-5.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1019,7 +1115,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-6.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1053,7 +1149,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1080,7 +1176,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-3.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1107,7 +1203,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-4.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1134,7 +1230,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-2.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1161,7 +1257,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-5.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1188,7 +1284,7 @@
                         <span class="rating__item"></span>
                       </div>
                       <a href="#" class="card-goods__small">3 отзыва</a>
-                      <a href="#" class="goods-img my-2">
+                      <a href="#" class="goods-img">
                         <img src="img/goods-6.jpg">
                       </a>
                       <div class="row mb-3">
@@ -1208,6 +1304,52 @@
                 <div class="text-center">
                   <a href="#" class="btn btn--bg-red">Показать все</a>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 order-xl-first">
+            <div class="bg-white pt-3 pb-4 px-3">
+              <p class="h2 color-red text-uppercase">Новости</p>
+              <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-12 mb-4">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-1.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-12 mb-4">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-2.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-12 mb-4 d-none d-md-block">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-3.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-12 mb-4 d-none d-lg-block">
+                  <div class="block-news">
+                    <a href="#" class="block-news__img bg-img" style="background-image: url(img/news-4.jpg);"></a>
+                    <div class="block-news__text">
+                      <span class="block-news__date">14.08.2018</span><br>
+                      С днем Строителя уважаемые партнеры!!!
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <a href="#" class="btn btn--bg-red">Все новости</a>
               </div>
             </div>
           </div>
@@ -1256,17 +1398,94 @@
     <footer class="bg-black footer">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-2">
+          <div class="col col-lg-auto col-xl-2 d-none d-sm-block">
             <img src="img/logo-2.png">
           </div>
-          <div class="col-lg-auto"></div>
-          <div class="col-lg-auto"></div>
-          <div class="col-lg-auto"></div>
-          <div class="col-lg-auto"></div>
-          <div class="col-lg-3">
-
+          <div class="col-lg-3 d-none d-lg-block">
+            <nav class="footer-menu">
+              <ul class="footer-menu__list row">
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">О нас</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Гарантии</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Строительство</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Новости</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Оплата</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Бренды</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Доставка</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg d-none d-lg-block">
+            <nav class="footer-menu">
+              <ul class="footer-menu__list row">
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Электрические печи</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Пиломатериалы</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Парогенераторы</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Двери</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Блоки управления</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Купели</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Дровяные печи</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Инфракрасные кабины</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Дымоходы</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Камины</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Освещение</a>
+                </li>
+                <li class="footer-menu__item col-lg-6">
+                  <a href="#" class="footer-menu__link">Аксессуары</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col col-lg-3 footer__contacts text-center text-sm-right">
+            <p class="icon icon--address icon--va-top">
+              <span>Москва</span>
+            </p>
+            <p class="icon icon--phone icon--va-top">
+              <span>
+                <a href="tel:78001002453" class="decoration-none">+7 (800) 100 24 53</a>
+                <br><a href="tel:74957410041" class="decoration-none">+7 (495) 741 00 41</a>
+              </span>
+            </p>
           </div>
         </div>
+        <div class="copyright">copyright ©</div>
       </div>
     </footer>
     <script src="js/libs.min.js"></script>
