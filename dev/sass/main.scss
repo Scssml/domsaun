@@ -152,7 +152,17 @@ h2,
   &__menu-btn {
     width: 48px;
     height: 48px;
-    line-height: 44px;
+    line-height: 48px;
+  }
+
+  &__catalog-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 10px 3px 30px;
+    background: #bc0f0f;
+    height: 50px;
+    line-height: 40px;
+    vertical-align: middle;
   }
 }
 

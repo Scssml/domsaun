@@ -6,4 +6,13 @@
   @media (max-width: 1199px) {
     margin-top: 10px;
   }
+
+  @media (max-width: 991px) {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-right: -25px;
+    position: relative;
+  }
 }

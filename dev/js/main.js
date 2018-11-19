@@ -67,6 +67,17 @@ $(document).ready(function(){
     }
   });
 
+  $('.show-sidebar').on('click', function() {
+    var id = $(this).data('sidebar');
+    $('#' + id).addClass('mobile-sidebar--active');
+    return false;
+  });
+
+  $('.mobile-sidebar__close').on('click', function() {
+    $('.mobile-sidebar--active').removeClass('mobile-sidebar--active');
+    return false;
+  });
+
   $('input[type="tel"]').inputmask({mask:"+7 (999) 999-99-99"});
 
   $('.menu-btn').on('click', function(){

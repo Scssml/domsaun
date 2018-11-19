@@ -84,3 +84,29 @@
     }
   }
 }
+
+.btn-close {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: block;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: calc(50% - 1px);
+    left: 0;
+    background: #fff;
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    transform: rotate(-45deg);
+  }
+}
