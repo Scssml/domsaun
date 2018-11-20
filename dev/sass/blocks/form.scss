@@ -1,0 +1,58 @@
+.form {
+
+  &__input {
+    height: 26px;
+    background: #fff;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    padding: 0 5px;
+    outline: none;
+  }
+
+  &__select {
+    height: 26px;
+    background: #fff;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    padding: 0 5px;
+    outline: none;
+  }
+
+  &__checkbox {
+    display: none;
+
+    &:checked + .form__checkbox-label {
+
+      &:before {
+        background-image: url(../img/ico-ceckbox.png);
+        background-position: top right;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &-label {
+
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #737373;
+        border-radius: 5px;
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  &__reset {
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(../img/ico-reset.png);
+    padding: 0 15px 0 0;
+    outline: none;
+  }
+}
