@@ -138,4 +138,24 @@
       height: 19px;
     }
   }
+
+  &--pdf {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-pdf.png);
+      width: 15px;
+      height: 19px;
+    }
+  }
+
+  &--tools {
+    
+    &:before,
+    &:after {
+      background-image: url(../img/ico-tools.png);
+      width: 19px;
+      height: 19px;
+    }
+  }
 }

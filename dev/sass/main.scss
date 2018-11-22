@@ -183,10 +183,53 @@ h2,
   }
 }
 
+.font-min {
+  font-size: .8rem;
+}
+
 .font-medium {
   font-size: 1.5rem;
 }
 
 .font-big {
   font-size: 5.1rem;
+}
+
+.line {
+  border-bottom: 1px solid;
+
+  &--gray {
+    border-color: #d3d2d2;
+  }
+
+  &--white {
+    border-color: #fff;
+  }
+
+  &--dotted {
+    border-bottom-style: dotted;
+  }
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.block {
+  padding: 20px;
+  border: 1px solid #d3d2d2;
+  border-radius: 7px;
+  overflow: hidden;
 }
