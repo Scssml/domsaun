@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Карточка товара</title>
+    <title>Конфигуратор</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&amp;subset=cyrillic" rel="stylesheet">
@@ -396,7 +396,7 @@
         </div>
       </div>
     </header>
-    <section class="py-4  bg-white">
+    <section class="py-4">
       <div class="container">
         <nav class="breadcrumb">
           <ul class="breadcrumb__list">
@@ -404,498 +404,226 @@
               <a href="#" class="breadcrumb__link">Главная</a>  
             </li>
             <li class="breadcrumb__item">
-              Галерея
+                Конфигуратор
             </li>
           </ul>
         </nav>
       </div>
     </section>
-    <section class="bg-white pb-5">
+    <section>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <div class="row">
-              <div class="col-sm-9">
-                <div class="owl-carousel detail-slider" id="detail-slider">
-                  <div class="detail-slider__item">
-                    <img src="img/goods-big.jpg">
+        <h1 class="h2 color-red text-uppercase mb-4">Конфигуратор</h1>
+        <div class="row justify-content-center configurator">
+          <div class="col-lg-auto configurator__item mb-4">
+            <div class="owl-carousel gallery-slider configurator-slider">
+              <div class="card-goods">
+                <div class="row justify-content-between mb-3">
+                  <div class="col-auto align-self-center">
+                    <div class="circle circle--pink">1</div>
                   </div>
-                  <div class="detail-slider__item">
-                    <img src="img/goods-big.jpg">
-                  </div>
-                  <div class="detail-slider__item">
-                    <img src="img/goods-big.jpg">
-                  </div>
-                  <div class="detail-slider__item">
-                    <img src="img/goods-big.jpg">
+                  <div class="col-auto align-self-center">
+                    <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-3 mt-4 mt-sm-0 order-sm-first">
-                <div class="row slider-thumbs" id="detail-slider-thumbs">
-                  <div class="col-3 col-sm-12">
-                    <div class="slider-thumbs__item slider-thumbs__item--active bg-img" data-slide="0" style="background-image: url(img/goods-big.jpg);"></div>
-                  </div>
-                  <div class="col-3 col-sm-12">
-                    <div class="slider-thumbs__item bg-img" data-slide="1" style="background-image: url(img/goods-big.jpg);"></div>
-                  </div>
-                  <div class="col-3 col-sm-12">
-                    <div class="slider-thumbs__item bg-img" data-slide="2" style="background-image: url(img/goods-big.jpg);"></div>
-                  </div>
-                  <div class="col-3 col-sm-12">
-                    <div class="slider-thumbs__item bg-img" data-slide="3" style="background-image: url(img/goods-big.jpg);"></div>
-                  </div>
+                <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                <div class="rating mr-1">
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item"></span>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <p class="font-min">Код товара: <b>6416976018217</b></p>
-            <h1 class="detail-card__name mb-4">Печь для сауны, бани Tylo Expression 10 Copper</h1>
-            <div class="row">
-                <div class="col-auto col-sm-5 align-self-center">
-                  <div class="rating mr-1">
-                    <span class="rating__item rating__item--active"></span>
-                    <span class="rating__item rating__item--active"></span>
-                    <span class="rating__item rating__item--active"></span>
-                    <span class="rating__item rating__item--active"></span>
-                    <span class="rating__item"></span>
+                <a href="#" class="card-goods__small">3 отзыва</a>
+                <a href="#" class="goods-img">
+                  <img src="img/goods-2.jpg">
+                </a>
+                <div class="row mt-2 text-center text-sm-left">
+                  <div class="col align-self-center mb-3 mb-sm-0">
+                    <p class="card-goods__price mb-0">117 870 ₽</p>
                   </div>
-                  <a href="#" class="card-goods__small">3 отзыва</a>
-                </div>
-                <div class="col-auto align-self-center">
-                  <p class="icon icon--success font-min mb-0"><span>В наличии</span></p>
-                </div>
-            </div>
-            <div class="line line--gray my-4"></div>
-            <div class="row justify-content-between">
-              <div class="col-auto align-self-center mb-4">
-                цена: <span class="detail-card__price ml-3">106 650 ₽</span>
-              </div>
-              <div class="col-auto align-self-center mb-4">
-                Количество:
-                <div class="goods-count ml-3">
-                  <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
-                  <input type="text" class="goods-count__input" value="2">
-                  <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
-                </div>
-              </div>
-            </div>
-            <p>Печь Tylo Expression 10 Copper подняла нагреватели для сауны на новый уровень. Теперь вы можете наслаждаться мягким расслабляющим теплом в саунах Tylo c нагревателем Expression.</p>
-            <p>Наряду с инновационным дизайном, Tylo Expression 10 Copper имеет такие же высокие характеристики, как и другие нагреватели Tylo, два боковых канала для выхода горячего воздуха, специальную нишу для ароматизатора и двойной внешний кожух.</p>
-            <div class="row mt-4">
-              <div class="col-sm-6 align-self-end">
-                <a href="#" class="btn btn--bg-red btn--big icon icon--cart detail-card__btn mb-4">Добавить в корзину</a>
-                <a href="#" class="btn btn--big detail-card__btn font-weight-bold">Купить в 1 клик</a>
-              </div>
-              <div class="col-sm-6 col-md mt-4 mt-sm-0 align-self-end">
-                <p><a href="#" class="icon icon--pdf">Скачать инструцию</a></p>
-                <p><a href="#" class="icon icon--pdf">Каталог</a></p>
-                <p class="mb-0"><a href="" class="icon icon--tools">Для сервисных центров, комплектующие</a></p>
-              </div>
-              <div class="col-sm-auto align-self-end mt-4 mt-md-0">
-                <a href="#" class="btn-icon btn-icon--favorite d-inline-block d-md-block mb-md-2"></a>
-                <a href="#" class="btn-icon btn-icon--compare d-inline-block d-md-block"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="my-5">
-      <div class="container">
-        <ul class="tabs-list tabs-list--gray mb-4" data-container="detail-props">
-          <li class="tabs-list__item">
-            <a href="#tabs-block-text" class="tabs-list__link tabs-list__link--gray tabs-list__link--active">О товаре</a>
-          </li>
-          <li class="tabs-list__item">
-            <a href="#tabs-block-props" class="tabs-list__link tabs-list__link--gray">Характеристики</a>
-          </li>
-          <li class="tabs-list__item">
-            <a href="#tabs-block-video" class="tabs-list__link tabs-list__link--gray">Видео</a>
-          </li>
-          <li class="tabs-list__item">
-            <a href="#tabs-block-reviews" class="tabs-list__link tabs-list__link--gray">Отзывы</a>
-          </li>
-        </ul>
-        <div class="tabs-block mb-5" id="detail-props">
-          <div class="sk-fading-circle tabs-block__preloader">
-            <div class="sk-circle sk-circle-1"></div>
-            <div class="sk-circle sk-circle-2"></div>
-            <div class="sk-circle sk-circle-3"></div>
-            <div class="sk-circle sk-circle-4"></div>
-            <div class="sk-circle sk-circle-5"></div>
-            <div class="sk-circle sk-circle-6"></div>
-            <div class="sk-circle sk-circle-7"></div>
-            <div class="sk-circle sk-circle-8"></div>
-            <div class="sk-circle sk-circle-9"></div>
-            <div class="sk-circle sk-circle-10"></div>
-            <div class="sk-circle sk-circle-11"></div>
-            <div class="sk-circle sk-circle-12"></div>
-          </div>
-          <div class="tabs-block__item tabs-block__item--active" id="tabs-block-text">
-            <p>Печь Tylo Expression 10 Copper подняла нагреватели для сауны на новый уровень. Теперь вы можете наслаждаться мягким расслабляющим теплом в саунах Tylo c нагревателем Expression.</p>
-            <p>Наряду с инновационным дизайном, Tylo Expression 10 Copper имеет такие же высокие характеристики, как и другие нагреватели Tylo, два боковых канала для выхода горячего воздуха, специальную нишу для ароматизатора и двойной внешний кожух.</p>
-          </div>
-          <div class="tabs-block__item" id="tabs-block-props">
-            <div class="row detail-card__props">
-              <div class="col-lg-6">
-                <div class="props-list">
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Модель:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>Печь для сауны, бани Tylo Expression 10 Copper</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Вид оборудования:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>Печь для сауны</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Производитель:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>Tylo</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Страна:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>Швеция</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Мощность:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>8 кВт.</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Рабочее напряжение:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>220/380 В.</b>
-                      </div>
+                  <div class="col-12 col-sm-auto align-self-center">
+                    <div class="goods-count goods-count--small">
+                      <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
+                      <input type="text" class="goods-count__input" value="2">
+                      <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="props-list">
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Мин. объем помещения:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>8 м³</b>
-                      </div>
-                    </div>
+              <div class="card-goods">
+                <div class="row justify-content-between mb-3">
+                  <div class="col-auto align-self-center">
+                    <div class="circle circle--pink">1</div>
                   </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Макс. объем помещения:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>13 м³</b>
-                      </div>
-                    </div>
+                  <div class="col-auto align-self-center">
+                    <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                   </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Габариты (ШхГхВ):
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>500x730x300 мм.</b>
-                      </div>
-                    </div>
+                </div>
+                <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                <div class="rating mr-1">
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item"></span>
+                </div>
+                <a href="#" class="card-goods__small">3 отзыва</a>
+                <a href="#" class="goods-img">
+                  <img src="img/goods-3.jpg">
+                </a>
+                <div class="row mt-2 text-center text-sm-left">
+                  <div class="col align-self-center mb-3 mb-sm-0">
+                    <p class="card-goods__price mb-0">117 870 ₽</p>
                   </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Пульт управления:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>Требует отдельного пульта управления</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Количество камней:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>70 кг.</b>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="line line--white px-3">
-                    <div class="row props-list__item">
-                      <div class="col-sm-5 align-self-center">
-                        Вес:
-                      </div>
-                      <div class="col-sm align-self-center">
-                        <b>29 кг.</b>
-                      </div>
+                  <div class="col-12 col-sm-auto align-self-center">
+                    <div class="goods-count goods-count--small">
+                      <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
+                      <input type="text" class="goods-count__input" value="2">
+                      <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="tabs-block__item video" id="tabs-block-video">
-            <iframe src="https://www.youtube-nocookie.com/embed/ffZanc4ZgN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="tabs-block__item" id="tabs-block-reviews">
-            Отзывы
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 order-xl-last mb-4">
-              <p class="h2 color-red text-uppercase mt-xl-2">Ваш подарок</p>
-              <div class="gift-block">
-                <div class="row">
-                  <div class="col-sm-6 col-md-4 gift-block__item">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name card-small__name--medium">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
+          <div class="col-lg-auto configurator__item mb-4">
+            <div class="owl-carousel gallery-slider configurator-slider">
+              <div class="card-goods">
+                <div class="row justify-content-between mb-3">
+                  <div class="col-auto align-self-center">
+                    <div class="circle circle--pink">2</div>
+                  </div>
+                  <div class="col-auto align-self-center">
+                    <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                  </div>
+                </div>
+                <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                <div class="rating mr-1">
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item"></span>
+                </div>
+                <a href="#" class="card-goods__small">3 отзыва</a>
+                <a href="#" class="goods-img">
+                  <img src="img/goods-4.jpg">
+                </a>
+                <div class="row mt-2 text-center text-sm-left">
+                  <div class="col align-self-center mb-3 mb-sm-0">
+                    <p class="card-goods__price mb-0">117 870 ₽</p>
+                  </div>
+                  <div class="col-12 col-sm-auto align-self-center">
+                    <div class="goods-count goods-count--small">
+                      <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
+                      <input type="text" class="goods-count__input" value="2">
+                      <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-4 gift-block__item">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name card-small__name--medium">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+                </div>
+              </div>
+              <div class="card-goods">
+                <div class="row justify-content-between mb-3">
+                  <div class="col-auto align-self-center">
+                    <div class="circle circle--pink">2</div>
                   </div>
-                  <div class="col-md-4 text-center gift-block__item pt-3">
-                    <span class="gift-block__price">23 900 ₽</span><br>
-                    <span class="gift-block__price-old price-old">32 445 ₽</span>
+                  <div class="col-auto align-self-center">
+                    <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
+                  </div>
+                </div>
+                <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                <div class="rating mr-1">
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item"></span>
+                </div>
+                <a href="#" class="card-goods__small">3 отзыва</a>
+                <a href="#" class="goods-img">
+                  <img src="img/goods-5.jpg">
+                </a>
+                <div class="row mt-2 text-center text-sm-left">
+                  <div class="col align-self-center mb-3 mb-sm-0">
+                    <p class="card-goods__price mb-0">117 870 ₽</p>
+                  </div>
+                  <div class="col-12 col-sm-auto align-self-center">
+                    <div class="goods-count goods-count--small">
+                      <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
+                      <input type="text" class="goods-count__input" value="2">
+                      <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          <div class="col-xl-6">
-            <ul class="tabs-list tabs-list--gray mb-4" data-container="detail-goods">
-              <li class="tabs-list__item">
-                <a href="#tabs-block-viewed-goods" class="tabs-list__link tabs-list__link--gray tabs-list__link--active">Недавно просмотренные</a>
-              </li>
-              <li class="tabs-list__item">
-                <a href="#tabs-block-pay-this-goods" class="tabs-list__link tabs-list__link--gray">С этим товаром покупают</a>
-              </li>
-            </ul>
-            <div class="tabs-block" id="detail-goods">
-              <div class="sk-fading-circle tabs-block__preloader">
-                <div class="sk-circle sk-circle-1"></div>
-                <div class="sk-circle sk-circle-2"></div>
-                <div class="sk-circle sk-circle-3"></div>
-                <div class="sk-circle sk-circle-4"></div>
-                <div class="sk-circle sk-circle-5"></div>
-                <div class="sk-circle sk-circle-6"></div>
-                <div class="sk-circle sk-circle-7"></div>
-                <div class="sk-circle sk-circle-8"></div>
-                <div class="sk-circle sk-circle-9"></div>
-                <div class="sk-circle sk-circle-10"></div>
-                <div class="sk-circle sk-circle-11"></div>
-                <div class="sk-circle sk-circle-12"></div>
-              </div>
-              <div class="tabs-block__item tabs-block__item--active" id="tabs-block-viewed-goods">
-                <div class="row">
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+          </div>
+          <div class="col-lg-auto configurator__item mb-4">
+            <div class="owl-carousel gallery-slider configurator-slider">
+              <div class="card-goods">
+                <div class="row justify-content-between mb-3">
+                  <div class="col-auto align-self-center">
+                    <div class="circle circle--pink">3</div>
                   </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+                  <div class="col-auto align-self-center">
+                    <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                   </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+                </div>
+                <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                <div class="rating mr-1">
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item"></span>
+                </div>
+                <a href="#" class="card-goods__small">3 отзыва</a>
+                <a href="#" class="goods-img">
+                  <img src="img/goods-6.jpg">
+                </a>
+                <div class="row mt-2 text-center text-sm-left">
+                  <div class="col align-self-center mb-3 mb-sm-0">
+                    <p class="card-goods__price mb-0">117 870 ₽</p>
                   </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
+                  <div class="col-12 col-sm-auto align-self-center">
+                    <div class="goods-count goods-count--small">
+                      <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
+                      <input type="text" class="goods-count__input" value="2">
+                      <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="tabs-block__item" id="tabs-block-pay-this-goods">
-                <div class="row">
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+              <div class="card-goods">
+                <div class="row justify-content-between mb-3">
+                  <div class="col-auto align-self-center">
+                    <div class="circle circle--pink">3</div>
                   </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+                  <div class="col-auto align-self-center">
+                    <p class="icon icon--success card-goods__small mb-0"><span>В наличии</span></p>
                   </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
+                </div>
+                <p class="card-goods__name">ПЕЧЬ ДЛЯ САУНЫ, БАНИ<br>Tylo Expression 10 Champagne</p>
+                <div class="rating mr-1">
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item rating__item--active"></span>
+                  <span class="rating__item"></span>
+                </div>
+                <a href="#" class="card-goods__small">3 отзыва</a>
+                <a href="#" class="goods-img">
+                  <img src="img/goods-1.jpg">
+                </a>
+                <div class="row mt-2 text-center text-sm-left">
+                  <div class="col align-self-center mb-3 mb-sm-0">
+                    <p class="card-goods__price mb-0">117 870 ₽</p>
                   </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4 col-md-3 mb-3">
-                    <div class="card-small">
-                      <a href="#" class="card-small__img">
-                        <img src="img/goods-small.png">
-                      </a>
-                      <a href="#" class="card-small__name">
-                        Печь для сауны, бани Harvia Cilindro PС70 White
-                      </a>
+                  <div class="col-12 col-sm-auto align-self-center">
+                    <div class="goods-count goods-count--small">
+                      <a href="" class="goods-count__btn goods-count__btn--minus">-</a>
+                      <input type="text" class="goods-count__input" value="2">
+                      <a href="" class="goods-count__btn goods-count__btn--plus">+</a>
                     </div>
                   </div>
                 </div>
@@ -903,16 +631,18 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="action-banner action-banner--dark bg-img bg-fixed" style="background-image: url(img/action-bg.jpg)">
-      <div class="container">
-        <div class="row justify-content-end">
-          <div class="col-md-8 col-xl-7">
-            <div class="action-banner__timer mb-4" id="action-timer"></div>
-            <p class="h2 text-uppercase mb-0">Скидки на все печи в магазине</p>
-            <p class="mb-4">на все печи до 01.02.22</p>
-            <a href="#" class="btn btn--bg-red icon icon--after icon--arrow-right">Смотреть все акции</a>
+        <div class="block-result bg-gray text-center text-md-right py-2 mb-4">
+          <div class="row justify-content-center justify-content-md-end">
+            <div class="col-12 col-md-auto align-self-center my-2">
+              Цена с учетом скидки:
+              <span class="block-result__price font-medium ml-3">
+                <span class="price-old">301 470 ₽</span>
+                <br>300 000 ₽
+              </span>
+            </div>
+            <div class="col-auto align-self-center my-2">
+              <a href="#" class="btn btn--bg-red btn--big text-uppercase px-4 w-100">Продолжить</a>
+            </div>
           </div>
         </div>
       </div>

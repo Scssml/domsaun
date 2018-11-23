@@ -44,6 +44,14 @@ $(document).ready(function(){
     $('#detail-slider-thumbs .slider-thumbs__item[data-slide=' + index + ']').addClass('slider-thumbs__item--active');
   });
 
+  $('.configurator-slider').owlCarousel({
+    items: 1,
+    loop: false,
+    nav: true,
+    margin: 30,
+    dots: false
+  });
+
   $('#slider-gallery').owlCarousel({
     items: 1,
     loop: false,

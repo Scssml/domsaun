@@ -77,6 +77,15 @@
       width: 19px;
       height: 19px;
     }
+
+    &-pink {
+      &:before,
+      &:after {
+        background-image: url(../img/ico-clock-pink.png);
+        width: 19px;
+        height: 19px;
+      }
+    }
   }
 
   &--phone {
@@ -86,6 +95,15 @@
       background-image: url(../img/ico-phone.png);
       width: 19px;
       height: 19px;
+    }
+
+    &-pink {
+      &:before,
+      &:after {
+        background-image: url(../img/ico-phone-pink.png);
+        width: 19px;
+        height: 19px;
+      }
     }
   }
 
@@ -136,6 +154,25 @@
       background-image: url(../img/ico-address.png);
       width: 15px;
       height: 19px;
+    }
+
+    &-pink {
+      &:before,
+      &:after {
+        background-image: url(../img/ico-address-pink.png);
+        width: 17px;
+        height: 25px;
+      }
+    }
+  }
+
+  &--mail {
+
+    &:before,
+    &:after {
+      background-image: url(../img/ico-mail.png);
+      width: 20px;
+      height: 14px;
     }
   }
 

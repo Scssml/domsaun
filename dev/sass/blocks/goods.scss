@@ -179,6 +179,10 @@
   text-align: center;
   width: 120px;
 
+  &--small {
+    width: 100px;
+  }
+
   &__btn {
     display: inline-block;
     width: 26px;
@@ -298,18 +302,6 @@
 
   &__price-old {
     color: #2c2c2c;
-    position: relative;
-
-    &:after {
-      content: '';
-      background: #2c2c2c;
-      position: absolute;
-      top: 10px;
-      left: -2px;
-      width: 110%;
-      height: 1px;
-      transform: rotate(-10deg);
-    }
   }
 
   &__item {
@@ -362,5 +354,12 @@
         }
       }
     }
+  }
+}
+
+.configurator {
+
+  &__item {
+    max-width: 374px;
   }
 }
