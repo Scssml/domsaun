@@ -99,4 +99,27 @@
       width: calc(100% - 40px);
     }
   }
+
+  &__input-btn {
+    display: flex;
+
+    a {
+      border-radius: 5px;
+      background: #d1d1d1;
+      text-decoration: none;
+      width: 220px;
+      text-align: center;
+      line-height: 48px;
+      font-size: .8rem;
+      margin-left: -5px;
+      transition: background-color 0.25s ease-in-out,
+                  color 0.25s ease-in-out;
+
+      &:hover,
+      &:focus {
+        background: #4a4a4a;
+        color:#fff;
+      }
+    }
+  }
 }

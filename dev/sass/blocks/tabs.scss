@@ -19,7 +19,7 @@
   }
 
   &__item {
-    
+    flex-grow: 1;
   }
 
   &__link {
@@ -30,19 +30,113 @@
     transition: background-color 0.25s ease-in-out,
                 color 0.25s ease-in-out;
 
-    &:hover,
-    &:focus,
+    // &:hover,
+    // &:focus,
     &--active {
       background: #950000;
       color: #fff;
+
+      .tabs-list__icon {
+        color: #fff;
+      }
+
+      .tabs-list__icon--money {
+
+        &:before {
+          background-image: url(../img/ico-money-white.png);
+        }
+      }
+
+      .tabs-list__icon--cash {
+
+        &:before {
+          background-image: url(../img/ico-cash-white.png);
+        }
+      }
+
+      .tabs-list__icon--prepay {
+
+        &:before {
+          background-image: url(../img/ico-prepay-white.png);
+        }
+      }
+
+      .tabs-list__icon--card {
+
+        &:before {
+          background-image: url(../img/ico-card-white.png);
+        }
+      }
+
+      .tabs-list__icon--credit {
+
+        &:before {
+          background-image: url(../img/ico-credit-white.png);
+        }
+      }
     }
 
     &--gray {
 
-      &:hover,
-      &:focus,
+      // &:hover,
+      // &:focus,
       &.tabs-list__link--active {
         background: #b36969;
+      }
+    }
+  }
+
+  &__icon {
+
+    &:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    &--money{
+
+      &:before {
+        background-image: url(../img/ico-money.png);
+        width: 31px;
+        height: 19px;
+      }
+    }
+
+    &--cash{
+
+      &:before {
+        background-image: url(../img/ico-cash.png);
+        width: 25px;
+        height: 31px;
+      }
+    }
+
+    &--prepay{
+
+      &:before {
+        background-image: url(../img/ico-prepay.png);
+        width: 24px;
+        height: 27px;
+      }
+    }
+
+    &--card{
+
+      &:before {
+        background-image: url(../img/ico-card.png);
+        width: 29px;
+        height: 19px;
+      }
+    }
+
+    &--credit{
+
+      &:before {
+        background-image: url(../img/ico-credit.png);
+        width: 26px;
+        height: 26px;
       }
     }
   }

@@ -261,15 +261,21 @@ $(document).ready(function(){
     tadsList.find('.tabs-list__link--active').removeClass('tabs-list__link--active');
     tabsBlock.find('.tabs-block__item--active').removeClass('tabs-block__item--active');
 
+    tabs.addClass('tabs-list__link--active');
     tabsBlock.find('.tabs-block__preloader').addClass('tabs-block__preloader--active');
 
     setTimeout(function () {
-      tabs.addClass('tabs-list__link--active');
       $(id).addClass('tabs-block__item--active');
       tabsBlock.find('.tabs-block__preloader--active').removeClass('tabs-block__preloader--active');
     }, 1000);
 
     return false;
+  });
+
+  $(document).on('click', '.type-radio', function() {
+    var id = $(this).attr('for');
+    $('.type-block').removeClass('type-block--active');
+    $('#' + id + '-block').addClass('type-block--active');
   });
 
   $('.card, .card-vertical, .card-horizontal').on('touchend', function() {});

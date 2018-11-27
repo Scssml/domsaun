@@ -6,28 +6,32 @@
   &--contain {
     background-size: contain;
   }
+
+  &--bottom {
+    background-position: bottom;
+  }
 }
 
 .bg-white {
-  background: #fff;
+  background-color: #fff;
 }
 
 .bg-black {
-  background: #000;
+  background-color: #000;
   color: #fff;
 }
 
 .bg-red {
-  background: #bd0e0e;
+  background-color: #bd0e0e;
   color: #fff;
 }
 
 .bg-gray {
-  background: #3d3d3d;
+  background-color: #3d3d3d;
   color: #fff;
 }
 .bg-gray-light {
-  background: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 .bg-gray-gradient {
